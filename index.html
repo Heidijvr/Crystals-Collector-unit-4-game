@@ -2,76 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crystals Collector Game</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-    <title>CrystalsCollector Game</title>
-
+     
 </head>
 
 <body>
 
-<div class="row">
-<div class="col-lg-5">
-    <h1>Crystals Collector!</h1>
+<div id="title">Crystals Collector!</div>
+
+<div class="instructionsBox">        
+    <p>You will be given a random number at the start of the game. There are four symbols below.</p>
+    <p>By clicking on a crystal, you will add a specific amount of points to your totoal score.</p>
+    <p>You win the game by matching your total score to the random number. You lose the game if</p>
+    <p>your score goes above the random number. The value of each crystal is hidden from you until</p>
+    <p>you click on it. Each time the game starts, the game will change the values of each crystal.</p>
 </div>
+  
+
+<div id="container">
+    <div id="randomNumberBox">
+        <p>Random number: <span id="randomNumber"></span></p>  
+    </div>
+    <div class="winLoseBox">
+            <p id="youWinLose"></p>        
+            <p>Wins: <span id="wins"></span></p>   
+            <p>Losses: <span id="losses"></span></p>
+    </div>
+</div> 
+
+
+<div id="crystalButtons">    
+        <div id="diamond" class="box"> 
+            <img class="crystalImage" src="assets/images/diamond.jpg">
+        </div>  
+        <div id="garnet" class="box">
+            <img class="crystalImage" src="assets/images/garnet.jpg">
+        </div> 
+        <div id="peridot" class="box">
+            <img class="crystalImage" src="assets/images/peridot.jpg">
+        </div>   
+        <div id="ruby" class="box">
+            <img class="crystalImage" src="assets/images/ruby1.jpg">
+        </div> 
 </div>
    
-
-<script type="text/javascript"></script>
+<div>
+    <div id="currentTotalBox">
+        <p>Your total score is: <span id="currentTotal"></span></p>  
+    </div>    
+</div>
     
-<div class="row justify-content-start mb-3">
-   <div class="col-lg-4">       
-        <p>You will be given a random number at the start of the game</p>
-        <p>There are fout symbols below. By clicking on a crystal, you will add a specific amount of points to your totoal score.</p>
-        <p>You win the game by matching your total score to the random number. You lose the game if your score goes above the random number.</p>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-        <p>Each time the game starts, the game will change the values of each crystal.</p>
-   </div>
-</div>
-
-<div class="row">
-<div class="diamond">    
-    <div class="col-sm-2 col-sm-2">    
-    <img src="assets/images/diamond.jpg" alt="diamond" height="200" width="180">
-    </div>    
-</div>
-<div class="garnet">
-    <div class="col-md-2 col-sm-2">
-    <img src="assets/images/garnet.jpg" alt="garnet" height="200" width="180">
-    </div>    
-</div>
-<div class="peridot">
-    <div class="col-md-2 col-sm-2">
-    <img src="assets/images/peridot.jpg" alt="peridot" height="200" width="180">
-    </div>        
-</div>
-<div class="ruby">
-    <div class="col-md-2 col-sm-2">
-        <img src="assets/images/ruby1.jpg" alt="ruby" height="200" width="180">
-    </div>
-</div>
-</div>
 
 
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>         
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
