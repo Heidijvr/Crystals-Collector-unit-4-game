@@ -5,13 +5,14 @@ body {
 #title { 
   margin: auto;
   margin-top: 15px;
-  height: 60px;
-  width: 400px;
+  height: 90px;
+  width: 470px;
   background-color: rgba(235, 174, 150, 0.952);
-  border: 3px solid rgb(121, 221, 180);
   text-align: center;
   color:#4c5258ec; 
-  font-size: 50px; 
+  font-size: 52px;
+  font-weight: bold;
+  padding: 15px; 
   
  }
  
@@ -19,12 +20,18 @@ body {
     margin: auto; 
     margin-top: 15px;
     background-color: rgba(240, 238, 154, 0.925);
-    border: 3px solid  rgb(121, 221, 180);
     font-weight: bold;
-    font-size: 18px; 
+    font-size: 20px; 
     width: 600px;
-    height: 195px;
+    height: 220px;
     padding: 10px;
+}
+
+#youWinLose {
+  text-align: center;
+  color:#4c5258ec; 
+  font-size: 100px;
+  margin-left: 20px; 
 }
 
 #container {
@@ -75,8 +82,10 @@ body {
 
 .crystalImage {
     width: 130px;
-    height: 160px;
-    padding-top: 20px;
+    margin-top: 20px;
+}
+.crystalImage:hover {
+    border: 3px solid grey;
 }
 
 #currentTotalBox {
