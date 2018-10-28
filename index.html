@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-     
 </head>
 
 <body>
@@ -18,9 +17,9 @@
 <div class="instructionsBox">        
     <p>You will be given a random number at the start of the game. There are four symbols below.</p>
     <p>By clicking on a crystal, you will add a specific amount of points to your totoal score.</p>
-    <p>You win the game by matching your total score to the random number. You lose the game if</p>
-    <p>your score goes above the random number. The value of each crystal is hidden from you until</p>
-    <p>you click on it. Each time the game starts, the game will change the values of each crystal.</p>
+    <p>You win the game by matching your total score to the random number. You lose the game if
+    your score goes above the random number.</p><p>The value of each crystal is hidden from you until you click on it.</p>
+    <p> Each time the game starts, the game will change the values of each crystal.</p>
 </div>
 
 <div id="youWinLose"></div>  
@@ -30,36 +29,31 @@
         <p>Random number: <span id="randomNumber"></span></p>  
     </div>
     <div class="winLoseBox">              
-            <p>Wins: <span id="wins"></span></p>   
-            <p>Losses: <span id="losses"></span></p>
+        <p>Wins: <span id="wins"></span></p>   
+        <p>Losses: <span id="losses"></span></p>
     </div>
 </div> 
 
-
-
-
 <div id="crystalButtons">    
-        <div id="diamond" class="box"> 
-            <img class="crystalImage" src="assets/images/yellowPNG.png">
-        </div>  
-        <div id="garnet" class="box">
-            <img class="crystalImage" src="assets/images/redPNG.png">
-        </div> 
-        <div id="peridot" class="box">
-            <img class="crystalImage" src="assets/images/greenPNG.png">
-        </div>   
-        <div id="ruby" class="box">
-            <img class="crystalImage" src="assets/images/blue1PNG.png">
-        </div> 
+    <div id="diamond" class="box"> 
+        <img class="crystalImage" src="assets/images/yellowPNG.png">
+    </div>  
+    <div id="garnet" class="box">
+        <img class="crystalImage" src="assets/images/redPNG.png">
+    </div> 
+    <div id="peridot" class="box">
+        <img class="crystalImage" src="assets/images/greenPNG.png">
+    </div>   
+    <div id="ruby" class="box">
+        <img class="crystalImage" src="assets/images/blue1PNG.png">
+    </div> 
 </div>
    
 <div>
     <div id="currentTotalBox">
         <p>Your total score is: <span id="currentTotal"></span></p>  
     </div>    
-</div>
-    
-
+</div>  
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

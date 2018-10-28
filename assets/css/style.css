@@ -3,80 +3,85 @@ body {
 }
 
 #title { 
-  margin: auto;
-  margin-top: 15px;
-  height: 90px;
-  width: 470px;
-  background-color: rgba(235, 174, 150, 0.952);
-  text-align: center;
-  color:#4c5258ec; 
-  font-size: 52px;
-  font-weight: bold;
-  padding: 15px; 
+    height: 90px;
+    width: 470px;  
+    margin: auto;
+    margin-top: 20px; 
+    background-color: rgba(235, 174, 150, 0.952);
+    text-align: center;
+    color:#4c5258ec; 
+    font-size: 52px;
+    font-weight: bold;
+    padding: 15px; 
   
  }
  
-.instructionsBox {    
+.instructionsBox { 
+    width: 660px;
+    height: 245px;   
     margin: auto; 
-    margin-top: 15px;
+    margin-top: 20px;
     background-color: rgba(240, 238, 154, 0.925);
     font-weight: bold;
-    font-size: 20px; 
-    width: 600px;
-    height: 220px;
+    font-size: 20px;
+    line-height: 1.4;    
     padding: 10px;
 }
 
 #youWinLose {
-  text-align: center;
-  color:#4c5258ec; 
-  font-size: 100px;
-  margin-left: 20px; 
+    margin-left: 20px;   
+    text-align: center;
+    color:#4c5258ec; 
+    font-size: 100px; 
 }
 
 #container {
-    margin: auto;
-    margin-top: 15px;
-    width: 600px;
+    width: 660px;
     height: 70px;
+    margin: auto;
+    margin-top: 20px;    
 }
 
 #randomNumberBox {
-    width: 300px;
-    height: 70px;
-    float: left;
-    background-color: lightskyblue; 
-    border: 3px solid rgb(121, 221, 180);
+    width: 370px;
+    height: 80px;
     margin: auto;
-    padding: 14px;
+    float: left;
+    background-color: rgb(131, 167, 189); 
+    border: 3px solid  hsl(32, 62%, 75%);    
+    padding: 20px;
     font-weight: bold;
     font-size: 28px;
+    color:#4c5258ec; 
+    text-align: center;
 } 
+
 .winLoseBox {
     width: 250px;
-    height: 70px;
+    height: 80px;
     float: right;
-    background-color: rgb(60, 170, 16);
-    border: 3px solid rgb(121, 221, 180);
+    background-color: rgb(131, 167, 189); 
+    border: 3px solid  hsl(32, 62%, 75%);
     padding: 10px;
     font-weight: bold;
     font-size: 24px;
+    color: #4c5258ec;
+    text-align: center;
 }
 
-
 .box {
-    margin: auto;
     width: 130px;
     height: 130px;
+    margin: auto;    
     margin: 0 10px 0 10px;
     float: left;
 }
    
 #crystalButtons {
-    margin: auto;
-    margin-top: 15px;
     width: 600px;
     height: 180px;
+    margin: auto;
+    margin-top: 30px;   
     background-color: hsl(32, 62%, 75%);
 }
 
@@ -84,19 +89,22 @@ body {
     width: 130px;
     margin-top: 20px;
 }
-.crystalImage:hover {
-    border: 3px solid grey;
+
+.crystalImage:active {
+    background-color: rgba(235, 174, 150, 0.952);
+    box-shadow: 0 5px rgb(219, 161, 137);
+    transform: translateY(4px);
 }
 
 #currentTotalBox {
-  margin: auto;
-  margin-top: 15px;
-  text-align: center;
-  width: 400px;
-  height: 80px;
-  background-color: lightskyblue; 
-  border: 3px solid rgb(121, 221, 180);
-  padding: 14px;
-  font-weight: bold;
-  font-size: 28px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 400px;
+    height: 80px;
+    background-color: rgb(131, 167, 189);   
+    padding: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #4c5258ec;
 }
