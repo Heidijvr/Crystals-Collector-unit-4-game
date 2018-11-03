@@ -10,30 +10,18 @@ var resetGame = function() {
     }
     total = 0;
     target = Math.floor(Math.random() * 102) + 19;
-    document.getElementById("randomNumber").innerHTML = target;
-    document.getElementById("wins").innerHTML = winCount;
-    document.getElementById("losses").innerHTML = lossCount;
-    document.getElementById("currentTotal").innerHTML = total; 
+    $("#randomNumber").text(target);
+    $("#wins").text(winCount);
+    $("losses").text(lossCount);
+    $("currentTotal").text(total); 
 }
 
 resetGame();
 
-
-document.getElementById("diamond").onclick = function() {
-   addCrystalValueToTotal(0);
-}
-
-document.getElementById("garnet").onclick = function () {
-    addCrystalValueToTotal(1);
-}
-
-document.getElementById("peridot").onclick = function () {
-    addCrystalValueToTotal(2);
-}
-
-document.getElementById("ruby").onclick = function () {
-    addCrystalValueToTotal(3);
-}
+$(".box").on("click" , function() {
+    console.log("Index: ", $(this).index(), "Id: ");
+    addCrystalValueToTotal($(this).index());
+})
 
 var addCrystalValueToTotal = function(crystalIndex) {
     document.getElementById("youWinLose").innerHTML = "";
