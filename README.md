@@ -1,16 +1,16 @@
 ## unit-4-game 
 
-**Crystals Collector
+# Crystals Collector**
 
-The Crystals Collector is a fun and interactive game for web browsers. In this app, the HTML is dynamically updated by JavaScript([Play the Crytals Collector game!](https://heidijvr.github.io/unit-4-game/)).
+The Crystals Collector is a fun and interactive game for web browsers. In this app, the HTML is dynamically updated by JavaScript ([Play the Crytals Collector game!](https://heidijvr.github.io/unit-4-game/)).
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp. 
 
 -----
 
 
-**Project Requirements:**
+### Project Requirements:
 
-##Game Instructions:
+### Game Instructions:
 
   * The player will be given a random number at the start of the game. 
   * There will be four crystals displayed as buttons on the page.
@@ -27,7 +27,7 @@ This project is part of the front-end curriculum for the University of Washingto
 
 -----
 
-##Built with:
+### Built with:
 
 * HTML5
 * CSS
