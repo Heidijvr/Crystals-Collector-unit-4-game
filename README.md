@@ -1,27 +1,36 @@
-## unit-4-game
+## unit-4-game 
 
-The CrystalsCollector is a fun and interactive game for web browsers. In this app, the HTML is dynamically updated by JavaScript([Play the GifTastic game](https://heidijvr.github.io/GifTastic/)).
+**Crystals Collector
 
-GIPHY API used to create a dynamic web page populated with gifs of choice. The assignment was completed by using JavaScript and jQuery to change the HTML, combined with CSS and images for styling purposes ([Play the GifTastic game](https://heidijvr.github.io/GifTastic/))
- .
+The Crystals Collector is a fun and interactive game for web browsers. In this app, the HTML is dynamically updated by JavaScript([Play the Crytals Collector game!](https://heidijvr.github.io/unit-4-game/)).
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp. 
 
 -----
 
+
 **Project Requirements:**
 
-* To obtain a GIPHY account and obtaining an API Key by creating an app.
-* When the user clicks on a button, the page should grab 10 static, non-animated gif images from the GIPHY API and place them on the page.
-* When the user clicks one of the still GIPHY images, the gif should animate. If the user clicks the gif again, it should stop playing.
-* Under every gif, display its rating - this data is provided by the GIPHY API.
-* Add a user input box which adds a topic with fitting giphys, along with buttons on the page.
+##Game Instructions:
+
+  * The player will be given a random number at the start of the game. 
+  * There will be four crystals displayed as buttons on the page.
+  * Each crystal has a value ehich will stay hidden until the player clicks a crystal.  .
+  * When a crystal is clicked, it will add a specific amount of points to the player's total score (which will indirectly
+    disclose the value of the crystal). 
+  * The player *wins* if their total score matches the random number assigned at the beginning of the game.
+  * The player *loses* if their score goes above the random number.
+  * The game restarts whenever the player wins or loses.
+* When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values, and
+  the user's score (and score counter) will reset to zero.
+* The app shows the number of games the player wins and loses (unless the page is refreshed - by which the game will be restarted).
+
 
 -----
 
-**Suggested future challenges:**
+##Built with:
 
-* Ensure that the app is fully mobile responsive.
-* Allow users to request additional gifs to be added to the page.
-* List additional metadata such as, title and tags, for each gif.
-* Integrate this search with additional APIs such as OMDB, or Bands in Town.
-* Allow users to add their favorite gifs to a favorites section.
+* HTML5
+* CSS
+* JavaScript
+* jQuery - JavaScript Library
+
