@@ -22,9 +22,11 @@ This project is part of the front-end curriculum for the University of Washingto
   * The player *wins* if their total score matches the random number assigned at the beginning of the game.
   * The player *loses* if their score goes above the random number.
   * The game restarts whenever the player wins or loses.
-* When the game begins again, the player should see a new random number; the crystals will have four new hidden values; and
-  the user's score (and score counter) will reset to zero.
-* The app shows the number of games the player wins and loses (unless the page is refreshed - by which the game will be restarted).
+* When the game begins again:
+    * the player should see a new random number
+    * the crystals will have four new hidden values
+    * and the user's score (and score counter) will reset to zero.
+* The app will show the number of games the player won and lost (unless the page is refreshed - by which the game will be restarted).
 
 
 -----
