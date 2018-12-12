@@ -7,7 +7,7 @@ This project is part of the front-end curriculum for the University of Washingto
 
 -----
 
-<img src="https://heidijvr.github.io/Crystals-Collector-unit-4-game/assets/images/Crystals-Collector.png" alt="Crytals Collector Game">
+<img src="https://heidijvr.github.io/Crystals-Collector-unit-4-game/assets/images/Crystals-Collector.png" alt="Crystals Collector Game">
 
 
 ### Project Requirements:
