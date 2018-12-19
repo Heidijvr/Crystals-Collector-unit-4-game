@@ -2,7 +2,7 @@
 
 # Crystals Collector
 
-The Crystals Collector is a fun and interactive game for web browsers. In this app, the HTML is dynamically updated by JavaScript ([Play the Crystals Collector game!](https://heidijvr.github.io/Crystals-Collector-unit-4-game/)).
+The Crystals Collector is a fun and interactive game for web browsers ([Play the Crystals Collector game!](https://heidijvr.github.io/Crystals-Collector-unit-4-game/)).
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp. 
 
 -----
@@ -36,5 +36,5 @@ This project is part of the front-end curriculum for the University of Washingto
 * HTML5
 * CSS
 * JavaScript
-* jQuery - JavaScript Library
+* jQuery
 
